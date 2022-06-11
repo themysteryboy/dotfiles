@@ -211,10 +211,10 @@ new_window pixel 3
 bar {
   font pango:Fira Code 10
   position bottom
-  workspace_min_width 40
+  workspace_min_width 45
   status_command ~/.config/i3/bumblebee-status/bumblebee-status \
       -m cpu sensors memory pasink datetime \
-      -t nord-powerline
+      -t dracula-powerline
   colors {
     background #2b3452
     statusline #ffffff
@@ -233,4 +233,4 @@ bindsym $mod+n bar mode dock
   client.focused           #5f3399 #5f3399 #333300 #5f3399
   #client.background       #2B2C2B
 
-gaps inner 5
+gaps inner 2
